@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Student pool</title>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+</head>
+<style>
+	.py-5 {
+		text-align: center;
+	}
+
+	.usercontainer {
+		align-items: center;
+	}
+
+	.userlist {
+		display: block;
+		align-items: center;
+		text-align: center;
+		margin-bottom: 14px;
+		margin-top: 53px;
+	}
+</style>
+
+<body class="container">
+
+	<div class="userlist"><a href="/users" class="btn btn-primary "> View All Users</a></div>
+	<h1 class="py-5">Create User</h1>
+
+	<form method="post" th:action="@{/saveuser/}" th:object="${user}" class="col card p-3 mb-5 usercontainer">
+		<div class="form-group">
+			<label for="firstName">First Name</label>
+			<input id="firstName" placeholder="Enter First Name" required type="text" th:field="*{firstName}"
+				class="form-control" />
+		</div>
+		<div class="form-group">
+			<label for="lastName">Last Name</label>
+			<input id="lastName" placeholder="Enter Last Name" required type="text" th:field="*{lastName}"
+				class="form-control" />
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input id="email" placeholder="Enter Email" required type="email" th:field="*{email}"
+				class="form-control" />
+		</div>
+		<div class="form-group">
+			<label for="password">Password</label>
+			<input id="password" placeholder="Enter Password" required type="password" th:field="*{password}"
+				class="form-control" />
+		</div>
+		<input type="submit" class="btn btn-primary" value="Create User" />
+	</form>
+</body>
+
+</html>

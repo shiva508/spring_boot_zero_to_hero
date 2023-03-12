@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Student pool</title>
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" />
+	<style>
+		.userlist {
+			display: block;
+			align-items: center;
+			text-align: center;
+			margin-bottom: 14px;
+		}
+	</style>
+</head>
+
+<body class="container">
+	<h1 class="py-5">Users</h1>
+	<div class="userlist"><a href="/createuser" class="btn btn-primary "> Create New User</a></div>
+
+	<table class="table table-striped table-bordered">
+		<tr>
+			<th>ID</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+
+			<th>Created At</th>
+			<th>Email</th>
+			<th>Delete</th>
+		</tr>
+		<tr th:if="${#lists.isEmpty(users)}">
+			<td colspan="5">No Records found. Add some...!</td>
+		</tr>
+		<tr th:each="user : ${users}">
+			<td th:text="${user.userId}"></td>
+			<td th:text="${user.firstName}"></td>
+			<td th:text="${user.lastName}"></td>
+			<td th:text="${user.createdDate}"></td>
+			<td> <a th:href="@{/getstudentbyemail/(email=${user.email})}"> [[${user.email}]]</a> </td>
+			<td> <a th:href="@{'/deleteuser/'+${user.userId}}">Delete</a> </td>
+		</tr>
+	</table>
+</body>
+
+</html>
