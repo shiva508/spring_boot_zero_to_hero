@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: studentpool_springboot_v3
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://localhost:3306/1234
+    password: root
+
+  lifecycle:
+    timeout-per-shutdown-phase: 30s
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: "true"
+server:
+  shutdown: graceful
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  tracing:
+    sampling:
+      probability: 1.0

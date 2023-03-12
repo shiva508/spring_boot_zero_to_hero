@@ -19,8 +19,11 @@
 		<module>user_registration_app</module>
 		<module>epool</module>
 		<module>dress_cool_app</module>
+        <module>spring_boot_3_0_0</module>
+        <module>aop_filtering</module>
+        <module>infinity</module>
 
-	</modules>
+    </modules>
     <properties>
 		<java.version>17</java.version>
 	</properties>

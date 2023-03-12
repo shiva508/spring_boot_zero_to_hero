@@ -1,0 +1,108 @@
+{
+  "organixzationName": "Student Pool",
+  "organizationId": 0,
+  "products": [
+    {
+      "productId": 0,
+      "productName": "Basics of programming",
+      "productType": 0,
+      "saleType": "Direct"
+    },
+    {
+      "productId": 0,
+      "productName": "Java",
+      "productType": 0,
+      "saleType": "Online"
+    }
+  ]
+}
+
+{
+  "id": 0,
+  "name": {
+    "first": "Shiva",
+    "last": "Dasari",
+    "middle": ""
+  },
+  "notes": "WHY",
+  "phone": {
+    "id": 0,
+    "number": "9493366706",
+    "phoneType": "LAND_LINE"
+  },
+  "starred": true,
+  "website": "www.studentpool.com"
+}
+
+
+{
+  "addresses": [
+    {
+      "id": 0,
+      "number": "9493366706",
+      "postalCode": "508201",
+      "street": "Church Street"
+    },
+    {
+      "id": 0,
+      "number": "90326754",
+      "postalCode": "500083",
+      "street": "Nagol"
+    }
+  ],
+  "id": 0,
+   "phones": [
+    "Devl",
+    "Prod"
+  ],
+  "registrationNumber": "09S31A0408"
+}
+
+{
+  "id": 0,
+  "registrationNumber": "09S31A0408",
+  "phones": [
+    "Devl",
+    "Prod"
+  ],
+    "phoneRegister": {"A":"A"},
+  
+  "addresses": [
+    {
+      "id": 0,
+      "street": "Nithya",
+      "number": "9493366706",
+      "postalCode": "508201"
+    },
+    {
+      "id": 0,
+      "street": "Nagol",
+      "number": "90326754",
+      "postalCode": "500083"
+    }
+  ]
+}
+
+
+
+{
+  "addresses": [
+    {
+      "id": 0,
+      "number": "9493366706",
+      "postalCode": "508201",
+      "street": "Church"
+    },
+    {
+      "id": 0,
+      "number": "3366706",
+      "postalCode": "58201",
+      "street": "Chuch"
+    }
+  ],
+  "id": 0,
+  "phones": [
+    "0000000000"
+  ],
+  "registrationNumber": "09S31A0408"
+}
