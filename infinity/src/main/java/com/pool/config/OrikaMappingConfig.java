@@ -3,8 +3,8 @@ package com.pool.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.infinity.mapper.FormDomainMapper;
-import com.infinity.mapper.ModelDomainMapper;
+import com.pool.mapper.FormDomainMapper;
+import com.pool.mapper.ModelDomainMapper;
 
 import ma.glasnost.orika.MapperFacade;
 import ma.glasnost.orika.MapperFactory;
