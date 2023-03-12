@@ -1,4 +1,4 @@
-package com.infinity.config.DBSecurityConfig;
+package com.pool.config.DBSecurityConfig;
 
 import org.springframework.beans.factory.annotation.Autowired; 
 import org.springframework.context.annotation.Bean;

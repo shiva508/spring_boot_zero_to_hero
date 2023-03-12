@@ -1,4 +1,4 @@
-package com.infinity.model;
+package com.pool.model;
 
 import java.util.ArrayList;
 import java.util.List;

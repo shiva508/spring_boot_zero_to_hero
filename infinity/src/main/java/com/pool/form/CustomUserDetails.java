@@ -1,4 +1,4 @@
-package com.infinity.form;
+package com.pool.form;
 
 import java.util.Collection;
 
@@ -7,7 +7,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.infinity.model.Users;
+import com.pool.model.Users;
 
 @SuppressWarnings("serial")
 public class CustomUserDetails extends Users implements UserDetails {

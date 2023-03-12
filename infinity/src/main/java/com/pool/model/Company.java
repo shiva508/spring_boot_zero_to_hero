@@ -1,4 +1,4 @@
-package com.infinity.model;
+package com.pool.model;
 
 public class Company {
 

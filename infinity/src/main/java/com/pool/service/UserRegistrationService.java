@@ -1,6 +1,6 @@
-package com.infinity.service;
+package com.pool.service;
 
-import com.infinity.model.UserRegistration;
+import com.pool.model.UserRegistration;
 
 public interface UserRegistrationService {
 public UserRegistration saveUserRegistration(UserRegistration registration);

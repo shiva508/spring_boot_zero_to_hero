@@ -1,4 +1,4 @@
-package com.infinity.service.feedbackImpl;
+package com.pool.service.feedbackImpl;
 
 import java.nio.charset.StandardCharsets;
 
@@ -12,7 +12,7 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Component;
 
-import com.infinity.service.feedback.FeedbackSender;
+import com.pool.service.feedback.FeedbackSender;
 @Component
 public class FeedbackMailSender implements FeedbackSender {
 	@Autowired

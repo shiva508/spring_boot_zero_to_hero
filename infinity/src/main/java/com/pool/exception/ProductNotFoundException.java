@@ -1,4 +1,4 @@
-package com.infinity.exception;
+package com.pool.exception;
 
 public class ProductNotFoundException extends RuntimeException {
 

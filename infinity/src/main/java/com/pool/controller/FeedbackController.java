@@ -1,4 +1,4 @@
-package com.infinity.controller;
+package com.pool.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.infinity.form.FeedbackViewModel;
-import com.infinity.service.feedback.FeedbackSender;
+import com.pool.form.FeedbackViewModel;
+import com.pool.service.feedback.FeedbackSender;
 
 @Controller
 @RequestMapping("/feedback")

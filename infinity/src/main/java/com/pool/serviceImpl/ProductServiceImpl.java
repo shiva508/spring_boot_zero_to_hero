@@ -1,4 +1,4 @@
-package com.infinity.serviceImpl;
+package com.pool.serviceImpl;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,15 +6,15 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.infinity.dao.ProductRepository;
-import com.infinity.form.FeaturesForm;
-import com.infinity.form.ProductForm;
-import com.infinity.form.RankingForm;
-import com.infinity.form.RankingResponse;
-import com.infinity.model.Features;
-import com.infinity.model.Product;
-import com.infinity.model.Ranking;
-import com.infinity.service.ProductService;
+import com.pool.dao.ProductRepository;
+import com.pool.form.FeaturesForm;
+import com.pool.form.ProductForm;
+import com.pool.form.RankingForm;
+import com.pool.form.RankingResponse;
+import com.pool.model.Features;
+import com.pool.model.Product;
+import com.pool.model.Ranking;
+import com.pool.service.ProductService;
 
 import ma.glasnost.orika.MapperFacade;
 

@@ -1,4 +1,4 @@
-package com.infinity.config;
+package com.pool.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import com.infinity.config.intercepter.InfinityIntercepter;
+import com.pool.config.intercepter.InfinityIntercepter;
 @Configuration
 public class RestConfig extends WebMvcConfigurerAdapter{
 	@Autowired

@@ -1,12 +1,12 @@
-package com.infinity.serviceImpl;
+package com.pool.serviceImpl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.infinity.dao.UserRegistrationRepository;
-import com.infinity.model.UserRegistration;
-import com.infinity.service.UserRegistrationService;
+import com.pool.dao.UserRegistrationRepository;
+import com.pool.model.UserRegistration;
+import com.pool.service.UserRegistrationService;
 @Service
 public class UserRegistrationServiceImpl implements UserRegistrationService {
 	@Autowired

@@ -1,4 +1,4 @@
-package com.infinity.form;
+package com.pool.form;
 
 public class AddressForm {
 	private Integer addressId;

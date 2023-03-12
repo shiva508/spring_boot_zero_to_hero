@@ -1,4 +1,4 @@
-package com.infinity.utils;
+package com.pool.utils;
 
 public class InfinityLiterals {
 public static String USER_NAME="SHIVA";

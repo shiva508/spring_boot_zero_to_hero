@@ -1,8 +1,8 @@
-package com.infinity.dao;
+package com.pool.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.infinity.model.Role;
+import com.pool.model.Role;
 
 @Repository
 public interface RolesRepository extends JpaRepository<Role, Integer> {

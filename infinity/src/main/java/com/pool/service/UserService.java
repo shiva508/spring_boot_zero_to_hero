@@ -1,6 +1,6 @@
-package com.infinity.service;
+package com.pool.service;
 
-import com.infinity.form.UserForm;
+import com.pool.form.UserForm;
 
 public interface UserService {
 public UserForm saveUser(UserForm userForm); 

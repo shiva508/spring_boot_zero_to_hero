@@ -1,4 +1,4 @@
-package com.infinity.mapper;
+package com.pool.mapper;
 
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.converter.ConverterFactory;

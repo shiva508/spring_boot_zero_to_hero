@@ -1,4 +1,4 @@
-package com.infinity.config;
+package com.pool.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

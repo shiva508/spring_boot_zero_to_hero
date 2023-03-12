@@ -1,4 +1,4 @@
-package com.infinity.model;
+package com.pool.model;
 
 import javax.persistence.Entity;
 

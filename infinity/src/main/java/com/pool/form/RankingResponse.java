@@ -1,4 +1,4 @@
-package com.infinity.form;
+package com.pool.form;
 
 public class RankingResponse {
 private Integer totalNumberOfvotes;

@@ -1,4 +1,4 @@
-package com.infinity.dao;
+package com.pool.dao;
 
 public interface CustomUserRepository {
 

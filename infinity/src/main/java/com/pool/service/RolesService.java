@@ -1,4 +1,4 @@
-package com.infinity.service;
+package com.pool.service;
 
 public interface RolesService {
 

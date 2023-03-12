@@ -1,4 +1,4 @@
-package com.infinity.controller;
+package com.pool.controller;
 import static org.springframework.hateoas.mvc.ControllerLinkBuilder.*;
 import java.net.URI;
 import java.util.List;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import com.infinity.exception.ProductNotFoundException;
-import com.infinity.form.ProductForm;
-import com.infinity.service.ProductService;
+import com.pool.exception.ProductNotFoundException;
+import com.pool.form.ProductForm;
+import com.pool.service.ProductService;
 
 @RestController
 public class ProductController {

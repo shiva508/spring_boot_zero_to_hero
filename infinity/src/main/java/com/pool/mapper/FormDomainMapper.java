@@ -1,15 +1,15 @@
-package com.infinity.mapper;
+package com.pool.mapper;
 
-import com.infinity.form.AddressForm;
-import com.infinity.form.FeaturesForm;
-import com.infinity.form.ProductForm;
-import com.infinity.form.RankingForm;
-import com.infinity.form.UserForm;
-import com.infinity.model.Address;
-import com.infinity.model.Features;
-import com.infinity.model.Product;
-import com.infinity.model.Ranking;
-import com.infinity.model.Users;
+import com.pool.form.AddressForm;
+import com.pool.form.FeaturesForm;
+import com.pool.form.ProductForm;
+import com.pool.form.RankingForm;
+import com.pool.form.UserForm;
+import com.pool.model.Address;
+import com.pool.model.Features;
+import com.pool.model.Product;
+import com.pool.model.Ranking;
+import com.pool.model.Users;
 import ma.glasnost.orika.MapperFactory;
 import ma.glasnost.orika.converter.ConverterFactory;
 import ma.glasnost.orika.converter.builtin.DateToStringConverter;

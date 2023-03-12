@@ -1,9 +1,9 @@
-package com.infinity.form;
+package com.pool.form;
 
 import java.util.List;
 
-import com.infinity.model.Features;
-import com.infinity.model.Ranking;
+import com.pool.model.Features;
+import com.pool.model.Ranking;
 
 public class ProductForm {
 	private Integer productId;

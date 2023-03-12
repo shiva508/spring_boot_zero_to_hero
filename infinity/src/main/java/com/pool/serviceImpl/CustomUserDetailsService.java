@@ -1,4 +1,4 @@
-package com.infinity.serviceImpl;
+package com.pool.serviceImpl;
 
 import java.util.Optional;
 
@@ -9,9 +9,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.infinity.dao.UsersRepository;
-import com.infinity.form.CustomUserDetails;
-import com.infinity.model.Users;
+import com.pool.dao.UsersRepository;
+import com.pool.form.CustomUserDetails;
+import com.pool.model.Users;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService {

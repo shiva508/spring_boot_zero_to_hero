@@ -1,4 +1,4 @@
-package com.infinity.controller;
+package com.pool.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

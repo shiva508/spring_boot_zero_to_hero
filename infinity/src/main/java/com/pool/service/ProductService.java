@@ -1,9 +1,9 @@
-package com.infinity.service;
+package com.pool.service;
 
 import java.util.List;
 
-import com.infinity.form.ProductForm;
-import com.infinity.model.Product;
+import com.pool.form.ProductForm;
+import com.pool.model.Product;
 
 public interface ProductService {
 public ProductForm saveProduct(ProductForm productForm);

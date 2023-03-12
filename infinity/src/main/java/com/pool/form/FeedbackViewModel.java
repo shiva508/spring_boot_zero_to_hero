@@ -1,4 +1,4 @@
-package com.infinity.form;
+package com.pool.form;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;

@@ -1,4 +1,4 @@
-package com.infinity.controller;
+package com.pool.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,10 +9,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
-import com.infinity.form.UserForm;
-import com.infinity.model.UserRegistration;
-import com.infinity.service.UserRegistrationService;
-import com.infinity.service.UserService;
+import com.pool.form.UserForm;
+import com.pool.model.UserRegistration;
+import com.pool.service.UserRegistrationService;
+import com.pool.service.UserService;
 
 @Controller
 public class UserRegistrationController {

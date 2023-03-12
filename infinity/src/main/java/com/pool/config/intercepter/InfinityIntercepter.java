@@ -1,4 +1,4 @@
-package com.infinity.config.intercepter;
+package com.pool.config.intercepter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

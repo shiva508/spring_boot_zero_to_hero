@@ -1,4 +1,4 @@
-package com.infinity.form;
+package com.pool.form;
 
 public class RolesForm {
 private Integer roleId;
